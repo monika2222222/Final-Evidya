@@ -100,7 +100,7 @@ const handleAdminStaffLogin = async () => {
                     onClick={() => setShowStudentLogin(true)} 
                     className="bg-blue-500 text-white px-4 py-2 rounded w-full mb-3"
                 >
-                    Student Login
+                    Student-Login
                 </button>
 
                 {/* Staff Login Button */}
@@ -108,7 +108,7 @@ const handleAdminStaffLogin = async () => {
                     onClick={() => setShowStaffLogin(true)} 
                     className="bg-green-500 text-white px-4 py-2 rounded w-full"
                 >
-                    Staff Login
+                    Staff-Login
                 </button>
             </div>
 
