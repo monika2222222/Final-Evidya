@@ -18,7 +18,7 @@ export default function Hero() {
         >
           <FaBars />
         </motion.button>
-        
+
         {/* Welcome User on Right Side */}
         <div className="flex items-center">
           <h1 className="font-bold text-xl text-white">WELCOME!!</h1>
@@ -89,8 +89,14 @@ export default function Hero() {
           className="w-1.7/3 pl-10 text-center"
         >
           <h2 className="text-3xl font-bold text-gray-800">Welcome to E-Vidya</h2>
-          <p className="text-lg text-gray-600 mt-4">E-Vidya is a modern educational platform that helps students and staff manage academic resources efficiently. Get access to study materials, announcements, student reports, and more.</p>
-          <Link to="/Explore" className="mt-6 inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition">Explore Now</Link>
+          <p className="text-lg text-gray-600 mt-4">E-Vidya is a modern educational platform that helps students and staff manage academic resources efficiently. Get access to study materials, announcements, student reports, and more. To check Academic calender and other details visit msbte original website</p>
+          <button
+            onClick={() => window.location.href = "https://msbte.ac.in/"}
+            className="mt-6 inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition"
+          >
+            msbte.org
+          </button>
+
         </motion.div>
       </motion.div>
 
